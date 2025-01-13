@@ -16,35 +16,21 @@ public class gameofDoors {
             else if(L==r||l==R){
                 System.out.println(2);
             }
-            else if(l<L){
-                if(r<R){
-                    System.out.println(r-L+2);
-                }
-                else if(r==R){
-                    System.out.println(r-L+1);
-                }
-                else{
-                    System.out.println(R-L+2);
-                }
+            else if(L==l&&r==R){
+                System.out.println(R-L);
             }
-                else if(L<l){
-                    if(R<r){
-                        System.out.println(R-l+2);
-                    }
-                    else if(R==r){
-                        System.out.println(R-l+1);
-                    }
-                    else{
-                        System.out.println(r-l+2);
-                    }
-                    
-                }
-                else{
-                    System.out.println(0);
-                }
+               else if(l==L||r==R){
+                System.out.println(Math.min(r,R)-Math.max(l,L)+1);
+               }
+               else{
+                System.out.println(Math.min(r,R)-Math.max(l,L)+2);
+               }
                 System.out.println();
             }
+            sc.close();
             
         }
     }
+
+
 

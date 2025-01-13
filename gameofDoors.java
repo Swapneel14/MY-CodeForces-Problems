@@ -11,7 +11,7 @@ public class gameofDoors {
         int L = sc.nextInt();
         int R= sc.nextInt();
             if(r<L||R<l){
-                System.err.println(1);
+                System.out.println(1);
             }
             else if(L==r||l==R){
                 System.out.println(2);

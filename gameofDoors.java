@@ -18,10 +18,10 @@ public class gameofDoors {
             }
             else if(l<L){
                 if(r<R){
-                    System.out.println((r-L)+2);
+                    System.out.println((r-L+2);
                 }
                 else if(r==R){
-                    System.out.println((r-L)+1);
+                    System.out.println((r-L+1);
                 }
                 else{
                     System.out.println(R-L+2);

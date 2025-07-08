@@ -5,7 +5,5 @@ This repo contains my personal Java (and possibly other languages) solutions to 
 
 ---
 
-## 📚 Structure
 
-Each solution is organized by contest or problem name for easy navigation. File naming follows a consistent format such as:
 
